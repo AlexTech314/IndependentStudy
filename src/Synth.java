@@ -12,5 +12,9 @@ public class Synth {
 		frame.setLocationRelativeTo(null);
 		frame.setVisible(true);
 	}
+	
+	public static class AudioInfo {
+		public static final int SAMPLE_RATE = 44100;
+	}
 
 }
